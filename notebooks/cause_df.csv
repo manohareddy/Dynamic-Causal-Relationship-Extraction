@@ -1,0 +1,55 @@
+cause_words,questions_1,questions_2
+accelerates,What accelarates {}?,Does {} accelarate {}?
+associated,Is {} associated with {}?,Is there an association between {} and {}?
+association,Is {} associated with {}?,Is there an association between {} and {}?
+caused,What caused {}?,Did {} cause {}?
+causes,What causes {}?,Does {} cause {}?
+causing,What caused {}?,What is causing {}?|Did {} cause {}?
+contribute,What contributes to {}?,Does {} contribute to {}?
+contributes,What contributes to {}?,Does {} contribute to {}?
+complicating,,
+complication,,
+complicated,,
+cured,what cured {}?,Did {} cure {}?
+result,What results in {}?,Does {} result in {}?
+results,What results in {}?,Does {} result in {}?
+resulting,What results in {},Does {} result in {}?
+connectivity,,
+connects,what connects {}?,Does {} connect {}?
+connecting,What was {} connecting?,Is {} connecting {}?
+following,what is following {}?,Was {} following {}?
+followed by,what was followed by {}?,Was {} followed by {}?
+revealed,what was revealed by {}?,Did {} reveal {}?
+revealing,What was {} revealing?,Was {} revealing {}?
+showing,What was {} showing?,Was {} showing {}?
+showed,What showed {}?,Did {} showed {}?
+manifestation,What is the manifestation of {} ?,Did {} result in the manifestation of {}?
+manifest,What did {} manifest?,Did {} manifest in {}?
+impact,What is the impact of {}?,Did {} impact {}?
+impacts,What impacts {}?,Do {} impact {}?
+impacting,what is impacting {}?,Is {} impacting {}?
+displays,,
+effect,what is the effect of {}?,Does {} effect {}?
+effects,what are the effects of {}?,do {} effect {}?
+due,,
+leading,,
+leads,What leads {}?,Do {} leads to {}?
+diagnostics,,
+influence,What influences {}?,Does {} influence {}?
+influenced,What influenced {},Did {} influence {}?
+provoke,what provoke {}?,Does {} provoke {}?
+provoked,what provoked {}?,Did {} provoke {}?
+provokes,what provokes {}?,Does {} provokes {}?
+reduces,what reduces {}?,Do {} reduce {}?
+reduced,what reducded {}?,Did {} reduce {}?
+combination with,,
+dislocates,,
+blocks,,
+susceptible,,
+paving,,
+sign,,
+involved,,
+possibility,,
+proximity,,
+inhibits,,
+role,,

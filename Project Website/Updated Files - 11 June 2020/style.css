@@ -1,0 +1,472 @@
+/*#############################################################
+
+
+ï¿½ 2007
+
+Author: Igor Jovic
+
+URL: http://spinz.se
+
+
+#############################################################*/
+
+
+/* default elements */
+
+
+
+*{margin:0px;padding:0px}
+
+
+h1
+{
+font-family:arial, verdana, helvetica, sans-serif;
+font-size:1.9em; 
+font-weight: bold;
+color:#333333;
+padding-left:5px;
+line-height:1.6em
+}
+	
+p
+{
+font-family:Verdana, Arial, helvetica, sans-serif;
+font-size:0.9em; 
+font-weight: normal;
+padding-left:5px;
+color:white;
+
+}
+
+a
+{
+font-weight:normal;
+font-style:normal;
+text-decoration:underline;
+}
+
+h4 a
+{
+color:#000000;
+font-weight:bold;
+font-style:normal;
+text-decoration:none;
+font-size:1.2em;
+padding-top:5px;
+padding-left:0px;
+}
+
+a:link
+{
+color:#ac0e22;
+font-weight:normal;
+font-style:normal;
+text-decoration:underline;
+}
+
+
+a:visited
+{
+color:#ac0e22;
+font-style:normal;
+font-weight:normal;
+text-decoration:underline;
+}
+
+
+a:hover
+{
+color:#ac0e22; 
+font-style:normal;
+text-decoration:none;
+ }
+
+
+
+/* Layout */
+
+body
+
+{
+background: white;
+font-family:Arial, Verdana,'Lucida Grande', Helvetica, sans-serif;
+text-align: center;
+color: #333333;
+}
+
+
+
+#wrapper 
+
+{
+background-color: white;
+margin-top: 40px;
+margin-right: auto;
+margin-bottom:40px;
+margin-left: auto;
+width:1202px;
+}
+
+
+
+#header
+
+{
+background: transparent url(Img/main_navigation_background.jpg);
+width:1202px;
+border-top:5px solid white;
+height:133px;
+padding-top: 0px;
+margin-left:0px;
+margin-right:0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+
+
+#header .logo
+
+{
+float:left;
+padding-top:0px;
+padding-left:0px;
+border: none;
+}
+
+#header h1
+{
+color: #ffffff;
+background: transparent url(Img/main_navigation_background.jpg);
+}
+
+#header h2
+{
+color: #cccccc;
+
+}
+
+#header h3
+{
+color: #cccccc;
+}
+
+#nav
+{
+float:left;
+list-style:none;
+margin-bottom:0px;
+margin-top:0px;
+margin-left:0px;
+width:1202px;
+height:48px;
+background: transparent url(Img/main_navigation_background.jpg);
+background-repeat:repeat-x;
+
+
+}
+
+#nav ul
+
+{
+list-style:none;
+margin-left:200px;
+}
+
+
+#nav li
+
+{
+text-align:left;
+float:left;
+padding-left:0px;
+padding-top:0px;
+padding-bottom:0px;
+}
+
+#nav ul li a
+
+{
+display:block;
+line-height:2.5em;
+margin-right:0px;
+padding:8px 14px 8px 14px;
+color: #d3d2cc;
+font-weight:bold;
+font-size: 0.8em;
+text-decoration: none;
+}
+
+#nav li a:hover
+{
+color: #ffffff;
+background:transparent;
+background-image:url(Img/main_navigation_background.jpg);
+background-repeat:repeat-x;
+
+}
+
+#nav ul li .selected
+{
+color: #ffffff;
+background-color:transparent;
+background-image:url(Img/main_navigation_background.jpg);
+background-repeat:repeat-x;
+
+}
+
+
+
+#content
+
+{
+float:left;
+background-image: url(Img/contentbgtop.jpg);
+background-repeat:repeat-x;
+background-position:top center;
+background-color:white;
+width:1202px;
+margin-top:20px;
+margin:auto;
+padding:0px;
+margin-bottom:0px;
+margin-right:0px;
+
+
+}
+
+
+#col1
+
+{
+float:left;
+width:720px;
+margin-left:10px;
+margin-top:30px;
+background-color:inherit;
+text-align:left;
+font-size:0.9em;
+padding:5px;
+
+}
+
+
+
+#col1 h1
+{
+display:block;
+font-size1.2em;
+font-family:Helvetica, Arial, sans-serif;
+text-align:left;
+font-weight:bold;
+color:#403f3b;
+font-weight:normal;
+padding-bottom:2px;
+margin-top:5px;
+margin-bottom:10px;
+margin-left:5px;
+border-bottom:1px solid #e5e6d6;
+}
+
+#col1 .red
+{
+color:#9a0c1c;
+}
+
+
+#col1 p
+
+ { 
+font: normal 0.9em Arial, Verdana, Helvetica, sans-serif;
+font-size:0.9em;
+color: #000000;
+padding:10px;
+text-align:left;
+}
+
+#col1 ul 
+{
+    list-style-position: outside;
+padding-bottom:10px;
+padding-left:10px;
+margin-left:20px;
+}
+
+#col1 li
+{
+
+padding-top:0px;
+padding-bottom:0px;
+margin-top:0px;
+margin-bottom:0px;
+font-size:0.9em;
+padding-left:10px;
+padding-top:3px;
+}
+
+
+#col2
+
+{
+float:right;
+background:#ffffff;
+width:300px;
+margin:20px 15px 5px 0;
+padding:10px 15px 5px 10px;
+text-align:left;
+font-size:0.9em;
+border:2px solid #ebebeb;
+}
+
+
+#col2 p
+
+ { 
+font: normal 0.9em Arial, Verdana, Helvetica, sans-serif;
+font-size:0.9em;
+margin-top:10px;
+color: #000000;
+padding:10px 15px 5px 10px;
+text-align:left;
+}
+
+
+
+#col3
+
+{
+float:right;
+width:300px;
+margin:84px 15px 5px 0;
+padding:10px 15px 5px 10px;
+text-align:left;
+font-size:0.9em;
+border:2px solid #ebebeb;
+}
+
+
+#col3 p
+
+ { 
+font: normal 0.9em Arial, Verdana, Helvetica, sans-serif;
+font-size:0.9em;
+margin-top:10px;
+color: #000000;
+padding:1px 15px 1px 10px;
+text-align:left;
+}
+
+
+#footer 
+
+{
+width:1202px;
+height:50px;
+clear:both;
+margin-top: 0px;
+color:#444444;
+margin-left:auto;
+margin-right:auto;
+margin-bottom: 0px;
+padding-top: 15px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+font-size:0.9em;
+
+}
+
+#footer p 
+
+{
+font-size:0.7em;
+font-family:arial;
+font-weight:normal;
+line-height: 1.4em;
+color:#aeaea6;
+padding-top:75px;
+padding-bottom:75px;
+text-align:center;
+magin:auto;
+}
+
+#footer a 
+{
+font-size:1em;
+text-decration:none;
+font-weight:normal;
+color:#e01b1b;
+text-align:center;
+}
+
+#footer a:hover
+
+{
+text-decoration:underline;
+font-weight:normal;
+color:#e01b1b;
+text-align:center;
+}
+
+form
+{
+padding:0px;
+margin:0px;
+}
+
+form p
+
+{
+color: #555555;
+text-align: left;
+font-size: 0.6em;
+font-family: Helvetica, Arial, Verdana;
+}
+
+
+input 
+{
+color:#000000;
+background-color:#f9faf5;
+height:24px;
+float:right;
+width: 200px;
+}
+
+.submit 
+
+{
+float:right;
+color: #000000;
+margin-top:0px;
+background-color: #f9faf4;
+width: 60px;
+margin-right:70px;
+margin-left:3px;
+margin-top:5px;
+}
+
+.input
+
+{
+color: #000000;
+margin-top:0px;
+background-color: #f9faf4;
+border-top:3px solid #550a13;
+border-left:6px solid #550a13;
+border-right:6px solid #550a13;
+border-bottom:6px solid #550a13;
+width: 150px;
+font-size: 1.9em;
+font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+.left
+
+{float:left;
+padding:4px;}
+
+div.a 
+{
+  text-indent: 0px;
+}

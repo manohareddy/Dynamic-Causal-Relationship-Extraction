@@ -1,0 +1,35 @@
+Notes 01/15/2020
+
+kdd feb 13th
+
+next wednesday
+1. gather 5000 sentences for 5 rare diseases and run the model.
+2. do t-test.
+3. 100c2 dimensions for combinations of words.
+
+
+01/22/2020
+
+1. run bert for sentences
+2. present two papers.
+
+
+02/04/2020
+
+1. mturks 
+2. label datasets between lakshmi, abhijeet and manohar, 200 each with a 100 overlaping. - Lakshmi completed
+3. find ade and semeval papers(sunday)
+4. add 4000 random sentences to ADE and look for attentions.(sunday)+(visualization->wednesday)
+5. list of 2019 papers top papers.(sunday)
+
+02/26/2020
+-manohar
+1. add semeval to train bert
+2. look for cause-effect attentions on semeval, compare with other pairs.
+3. for pubmed dataset, get highest attention words
+
+03/25/2020
+1. how to evaluate embeddings, https://www.aclweb.org/anthology/D15-1036/
+2. read through papers on different evaluation methods.
+3. presentation next week.
+4. label 1000 sentences for identify objects from titles(wildlife)
